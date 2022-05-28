@@ -7,7 +7,7 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class MenuS2 extends Component{
     render(){
         return(    
-            <Container fluid className="menu-s2 d-flex minh-50vh bg-white align-items-center py-5">
+            <Container fluid className="menu-s2 d-flex minh-50vh bg-white align-items-center py-5 border-top border-secondary">
                 <Row className="mx-0 w-100">
                     <Col xs={12} md={{span:6,offset:6}} lg={{span:5,offset:7}} 
                         className="minh-50vh d-flex align-items-center">
