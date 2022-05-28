@@ -6,18 +6,18 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class AboutS2 extends Component{
     render(){
         return(    
-            <Container fluid className="about-s2 d-flex bg-secondary minh-50vh align-items-center py-5">
+            <Container fluid className="about-s2 d-flex bg-secondary minh-50vh align-items-center py-5 border-top border-secondary">
                 <Row className="mx-0 w-100">
                     <Col xs={12} md={7} className="minh-25vh d-none d-md-block"></Col>
                     <Col xs={12} md={5} className="minh-50vh d-flex align-items-center">
-                        <div className="w-100 text-center text-md-start pt-5">
-                            <h5 className="text-white">
+                        <div className="w-100 text-center text-md-start pt-5 ps-md-3">
+                            <h5 className="text-secondary">
                                 Lorem ipsum
                             </h5>
-                            <h2 className="dispaly-6 fw-bold text-white-50">
+                            <h2 className="dispaly-6 fw-bold text-secondary">
                                 Dolor sit amet         
                             </h2>
-                            <p className="text-white">
+                            <p className="text-secondary">
                                 Sed do eiusmod tempor incididunt ut labore et dolore magna 
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat. 
